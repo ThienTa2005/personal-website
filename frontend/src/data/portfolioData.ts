@@ -26,12 +26,12 @@ export const selectedProjects: Project[] = [
     description:
       "Social audio & book discovery platform. Built comprehensive authentication & authorization (JWT, Google OAuth, token blacklist logout), session management, and custom Taste DNA recommendation logic analyzing user preferences.",
     domain: "github.com/ThienTa2005",
-    url: "https://github.com/ThienTa2005",
+    url: "https://github.com/Vinhdiesel28/Soundbook-social-network-web",
     toneColor: "#4a6fd4",
     logoText: "SB",
     logoBg: "#4a6fd4",
     blogPostTitle: "View project architecture on GitHub",
-    blogPostUrl: "https://github.com/ThienTa2005",
+    blogPostUrl: "https://github.com/Vinhdiesel28/Soundbook-social-network-web",
     previewSubtitle: "Team size: 3 • Authentication, Taste DNA Match Algorithm, Protected Routes",
     tags: ["ReactJS", "Spring Boot", "JWT", "MySQL", "Recommendation Algorithm"],
   },
@@ -43,12 +43,12 @@ export const selectedProjects: Project[] = [
     description:
       "Comprehensive bookstore management system featuring real-time staff support chat with Firebase, robust RESTful APIs for conversations, unread status badges, product inventory, and strict Role-Based Access Control (RBAC).",
     domain: "github.com/ThienTa2005",
-    url: "https://github.com/ThienTa2005",
+    url: "https://github.com/TranTrongHung123/book-store",
     toneColor: "#0f8a7a",
     logoText: "BS",
     logoBg: "#0f8a7a",
     blogPostTitle: "Explore staff chat & API design",
-    blogPostUrl: "https://github.com/ThienTa2005",
+    blogPostUrl: "https://github.com/longchunnn/bookstore",
     previewSubtitle: "Team size: 4 • Spring Boot, ReactJS, Firebase Realtime, MySQL",
     tags: ["Spring Boot", "ReactJS", "Firebase", "MySQL", "RESTful API"],
   },
@@ -139,64 +139,15 @@ export const selectedProjects: Project[] = [
   },
 ];
 
-export const alsoShippingProjects: MicroProject[] = [
-  {
-    name: "BTL_OOP",
-    initials: "OP",
-    bg: "#b4532a",
-    url: "https://github.com/ThienTa2005/BTL_OOP",
-    description: "Java Object-Oriented Programming core system",
-  },
-  {
-    name: "ATBMHTTT",
-    initials: "BM",
-    bg: "#7b4ea3",
-    url: "https://github.com/ThienTa2005/ATBMHTTT",
-    description: "Information system security and cryptography lab",
-  },
-  {
-    name: "CSDLPT",
-    initials: "DB",
-    bg: "#1f6f8a",
-    url: "https://github.com/ThienTa2005/CSDLPT",
-    description: "Distributed Database management and replication",
-  },
-  {
-    name: "RNN Experiments",
-    initials: "RN",
-    bg: "#c44c3a",
-    url: "https://github.com/ThienTa2005/RNN",
-    description: "Recurrent Neural Networks for sequence modeling",
-  },
-  {
-    name: "CNPM",
-    initials: "SE",
-    bg: "#536f91",
-    url: "https://github.com/ThienTa2005/CNPM",
-    description: "Software engineering analysis and architecture design",
-  },
-  {
-    name: "LapTrinhWeb",
-    initials: "LW",
-    bg: "#d97757",
-    url: "https://github.com/ThienTa2005/LapTrinhWeb",
-    description: "Web development fundamentals and responsive UI",
-  },
-  {
-    name: "Code-c- Algorithms",
-    initials: "CP",
-    bg: "#4a6b5c",
-    url: "https://github.com/ThienTa2005/Code-c-",
-    description: "C++ Data structures & algorithmic problem solving",
-  },
-  {
-    name: "TTCS-D23",
-    initials: "TT",
-    bg: "#8a5a32",
-    url: "https://github.com/ThienTa2005/TTCS-D23",
-    description: "PTIT practical technology training and project work",
-  },
-];
+// export const alsoShippingProjects: MicroProject[] = [
+//   {
+//     name: "Hospital-web",
+//     initials: "HW",
+//     bg: "#b4532a",
+//     url: "https://github.com/ThienTa2005/Hospital-web",
+//     description: "Hospital Web Management System",
+//   },
+// ];
 
 export const blogPosts: BlogPost[] = [
   {

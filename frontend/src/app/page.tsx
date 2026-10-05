@@ -2,7 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import SelectedWork from "../components/SelectedWork";
-import AlsoShipping from "../components/AlsoShipping";
+// import AlsoShipping from "../components/AlsoShipping";
 import BlogSection from "../components/BlogSection";
 import Footer from "../components/Footer";
 
@@ -13,7 +13,7 @@ export default function Home() {
       <main className="flex-1">
         <Hero />
         <SelectedWork />
-        <AlsoShipping />
+        {/* <AlsoShipping /> */}
         <BlogSection />
       </main>
       <Footer />
