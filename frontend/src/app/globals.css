@@ -1,0 +1,81 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  --rd-bg: #fcfcfc;
+  --rd-bg-sub: #f5f5f7;
+  --rd-surface: #ffffff;
+  --rd-surface-2: #f0f0f3;
+  --rd-text: #121214;
+  --rd-text-2: #4b4c52;
+  --rd-text-3: #71717a;
+  --rd-text-4: #9ca3af;
+  --rd-border: #e4e4e7;
+  --rd-line: #ececf0;
+  --rd-accent: #2563eb;
+  --rd-accent-ink: #1d4ed8;
+  --rd-label-slate: #f1f5f9;
+  --rd-label-slate-fg: #334155;
+  --rd-maxw: 1120px;
+  --rd-pad: 1.25rem;
+}
+
+html.dark {
+  --rd-bg: #0a0a0a;
+  --rd-bg-sub: #111113;
+  --rd-surface: #141416;
+  --rd-surface-2: #1b1b1e;
+  --rd-text: #f4f4f5;
+  --rd-text-2: #a1a1aa;
+  --rd-text-3: #71717a;
+  --rd-text-4: #52525b;
+  --rd-border: #27272a;
+  --rd-line: #1e1e22;
+  --rd-accent: #60a5fa;
+  --rd-accent-ink: #93c5fd;
+  --rd-label-slate: #1e293b;
+  --rd-label-slate-fg: #cbd5e1;
+}
+
+@keyframes work-rail {
+  from {
+    transform: scaleX(0);
+  }
+  to {
+    transform: scaleX(1);
+  }
+}
+
+.animate-work-rail {
+  animation: work-rail linear forwards;
+}
+
+body {
+  background-color: var(--rd-bg);
+  color: var(--rd-text);
+  font-family: var(--font-geist-sans), -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background-color: rgba(59, 130, 246, 0.25);
+  color: inherit;
+}
+
+/* Custom delicate scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--rd-border);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--rd-text-3);
+}

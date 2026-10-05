@@ -1,0 +1,36 @@
+# Tạ Thanh Thiên (Thiên) — Java Backend & Full-Stack Developer
+> Portfolio, software projects, skills, and academic profile.
+
+## About
+- Full Name: Tạ Thanh Thiên (Thiên)
+- Title: Four-year Information Technology Student / Software Developer
+- University: Posts and Telecommunications Institute of Technology (PTIT)
+- Expected Graduation: 2028
+- GPA: 3.60 / 4.00
+- Location: HaNoi, VietNam
+- Phone: 0377781205
+- Email: thien24112005@gmail.com
+- GitHub: https://github.com/ThienTa2005
+- LinkedIn: https://www.linkedin.com/in/t%E1%BA%A1-thi%C3%AAn-a14a82390/
+- Resume PDF: /cv.pdf
+
+## Technical Skills
+- Backend: Java, Spring Boot, Spring MVC, Spring Data JPA, RESTful APIs, JWT, MVC Architecture
+- Frontend: ReactJS, Vite, React Router, HTML, CSS, JavaScript, TailwindCSS
+- Database: MySQL, SQL Server, Database Design, ERD
+- Tools: Git, GitHub, Postman, NetBeans, VS Code
+
+## Key Projects
+- Soundbook Social Network: Full-stack developer (team of 3). Built authentication, Google login, JWT token blacklist logout, route protection, and Taste DNA recommendation logic.
+- Bookstore Web Application: Full-stack developer (team of 4). Staff support and live chat with Spring Boot, ReactJS, MySQL, and Firebase. RESTful APIs for conversations, unread status, and RBAC.
+- FreshLink Web App (Live at https://fresh-link-eight.vercel.app): Java backend & modern React frontend for fresh goods distribution.
+- Hospital Web Management (https://github.com/ThienTa2005/Hospital-web): Java Web Application using JSP/Servlet + MySQL.
+- SJC Gold Price Predictor (https://github.com/ThienTa2005/SJC_Price_Predict_AI): Machine learning model for domestic gold price forecasting.
+- Amazon Stock Price Predictor (https://github.com/ThienTa2005/AMZN_Predict_AI): Predictive regression modeling for Amazon stock trends.
+
+## Certifications & Honors
+- Certificate in Algorithm Applications – Samsung & PTIT
+- English TOEIC: 765 / 990
+- NVIDIA Fundamentals of Deep Learning Certification
+- Student of 5 Merits (Sinh viên 5 tốt)
+- Third Prize of PTIT Young E-Business 2026
