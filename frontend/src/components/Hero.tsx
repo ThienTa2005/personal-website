@@ -100,7 +100,7 @@ export default function Hero() {
             </svg>
             <div className="absolute -bottom-2 -right-2 flex items-center gap-1 rounded-full border border-[var(--rd-border)] bg-[var(--rd-bg-sub)] px-2.5 py-0.5 text-[0.65rem] font-mono text-[var(--rd-text-3)] shadow-2xs">
               <span className="font-semibold text-emerald-500">PTIT</span>
-              <span>• D21</span>
+              <span>• D23</span>
             </div>
           </div>
         </div>
